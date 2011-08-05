@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Tue Aug 17 10:23:35 EDT 2010
+onejar.license.required=false
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=Pdfim_fat.jar
+manifest.mergeall=true
+manifest.mainclass=pdfmt.RemoveBlankPdf
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=

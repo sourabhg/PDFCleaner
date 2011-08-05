@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Thu Sep 23 13:29:44 EDT 2010
+onejar.license.required=false
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=true
+jarname=PDFCleanerufinal.jar
+manifest.mergeall=true
+manifest.mainclass=pdfmt.RemoveBlankPdf
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<project name="FatJar Pdfim_fat.jar (experimental)" default="main" basedir=".">
+    <!-- this file was created by Fat-Jar Eclipse Plug-in -->
+    <!-- the ANT-Export is in a very early stage, so this -->
+    <!-- is only experimental, ANT 1.6 or above is        -->
+    <!-- required, feedback is always welcome:            -->
+    <!--       http://sourceforge.net/projects/fjep       -->
+    <!-- uncomment the following lines if using ANT outside Eclipse -->
+    <!--
+        <property name="fjepPath" value="reference:file:plugins/net.sf.fjep.fatjar_0.0.31.jarfatjar.jar"/>
+        <taskdef name="fatjar.build" classname="net.sf.fjep.anttask.FJBuildTask" classpath="${fjepPath}"/>
+        <typedef name="fatjar.manifest" classname="net.sf.fjep.anttask.FJManifestType" classpath="${fjepPath}"/>
+        <typedef name="fatjar.exclude" classname="net.sf.fjep.anttask.FJExcludeType" classpath="${fjepPath}"/>
+        <typedef name="fatjar.jarsource" classname="net.sf.fjep.anttask.FJJarSourceType" classpath="${fjepPath}"/>
+        <typedef name="fatjar.filesource" classname="net.sf.fjep.anttask.FJFileSourceType" classpath="${fjepPath}"/>
+    -->
+    <!-- uncomment the above lines to use ANT outside of Eclipse -->
+    <target name="main">
+        <fatjar.build output="Pdfim_fat.jar">
+            <fatjar.manifest mainclass="pdfmt.RemoveBlankPdf"/>
+            <fatjar.filesource path="C:\Documents and Settings\rad\workspace\Pdfim\bin" relpath=""/>
+            <fatjar.jarsource file="C:\Documents and Settings\rad\workspace\Pdfim\lib\batik-awt-util.jar" relpath=""/>
+            <fatjar.jarsource file="C:\Documents and Settings\rad\workspace\Pdfim\lib\batik-dom.jar" relpath=""/>
+            <fatjar.jarsource file="C:\Documents and Settings\rad\workspace\Pdfim\lib\batik-svg-dom.jar" relpath=""/>
+            <fatjar.jarsource file="C:\Documents and Settings\rad\workspace\Pdfim\lib\batik-svggen.jar" relpath=""/>
+            <fatjar.jarsource file="C:\Documents and Settings\rad\workspace\Pdfim\lib\batik-util.jar" relpath=""/>
+            <fatjar.jarsource file="C:\Documents and Settings\rad\workspace\Pdfim\lib\batik-xml.jar" relpath=""/>
+            <fatjar.jarsource file="C:\Documents and Settings\rad\workspace\Pdfim\lib\icepdf-core.jar" relpath=""/>
+            <fatjar.jarsource file="C:\Documents and Settings\rad\workspace\Pdfim\lib\icepdf-viewer.jar" relpath=""/>
+            <fatjar.jarsource file="C:\Documents and Settings\rad\workspace\Pdfim\lib\jai_imageio-1.1.jar" relpath=""/>
+            <fatjar.jarsource file="C:\Documents and Settings\rad\workspace\Pdfim\lib\jai_codec.jar" relpath=""/>
+            <fatjar.jarsource file="C:\Documents and Settings\rad\workspace\Pdfim\lib\jai_core.jar" relpath=""/>
+            <fatjar.jarsource file="C:\Documents and Settings\rad\My Documents\Downloads\iText-5.0.3.jar" relpath=""/>
+            <fatjar.jarsource file="C:\Documents and Settings\rad\My Documents\Downloads\nimrodlf-1.2.jar" relpath=""/>
+            <fatjar.jarsource file="C:\Documents and Settings\rad\My Documents\Downloads\JTattoo.jar" relpath=""/>
+        </fatjar.build>
+    </target>
+</project>
