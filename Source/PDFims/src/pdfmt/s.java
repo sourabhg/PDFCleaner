@@ -1,7 +1,7 @@
 /*  This file is part of PDFCleaner.
  *  The class displays Contact us Screen.
  *
- *  Copyright (C) 2010  Sourabh Gandhe
+ *  Copyright (C) 2012  Sourabh Gandhe
  *                      
  *	
  *  PDFCleaner is free software: you can redistribute it and/or modify
@@ -61,7 +61,7 @@ public class s extends JFrame {
 		label1.setBounds(50, 30, 200, label1.getPreferredSize().height);
         
 		//---- label2 ----
-		label2.setText("Research Advancement Team");
+		label2.setText("Sourabh Gandhe");
 		contentPane.add(label2);
 		label2.setBounds(30, 70, 200, label2.getPreferredSize().height);
 

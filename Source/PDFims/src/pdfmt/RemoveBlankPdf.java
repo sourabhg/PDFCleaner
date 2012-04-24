@@ -2,9 +2,8 @@
  *  Application automatically removes the blank pages from *.pdf files.This is main application file.
  *  Only PDF files supported.
  *
- *  Copyright (C) 2010  Sourabh Gandhe
- *                      Ashwini Kadam
- *	                    Siddharth Chitambar
+ *  Copyright (C) 2012  Sourabh Gandhe
+
  *  PDFCleaner is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
  *  the Free Software Foundation, either version 3 of the License, or

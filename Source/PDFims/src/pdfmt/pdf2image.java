@@ -1,7 +1,7 @@
 /*  This file is part of PDFCleaner.
  *  The class displays the help screen.
  *
- *  Copyright (C) 2010  Ashwini Kadam
+ *  Copyright (C) 2012  Sourabh Gandhe
  *                      
  *	
  *  PDFCleaner is free software: you can redistribute it and/or modify
